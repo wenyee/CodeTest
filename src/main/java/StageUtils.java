@@ -49,7 +49,7 @@ public class StageUtils {
     public static String ReplaceLetter(String en){
         int now = en.toCharArray()[0];
         if(now >= lastEnglish) {
-            en="z";	//上一个字母已经到‘Z’回到‘C’z
+            en="z";	
         }else if(now <= firstEnglish){
             en="";
         } else {
